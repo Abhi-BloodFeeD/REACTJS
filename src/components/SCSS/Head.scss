@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.head{
+  border:5px solid green;
+  margin:0;
+  padding:0;
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+ 
+  // width: 100vw;
+  
+}
+
+.head_element{
+  border: 2px yellow solid;
+  width: 50%;
+}

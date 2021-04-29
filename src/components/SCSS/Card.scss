@@ -1,0 +1,64 @@
+$childHeight:100%;
+@mixin grow_flex{
+  &:hover{
+    flex-grow: 1.2;
+    transition: all 0.5s ease;
+  }
+}
+@media only screen and (min-width:480px) {
+  .card{
+    display: flex;
+    // min-width: 400px;
+    flex-direction: row;
+    box-sizing: border-box;
+    margin: 3px;
+    padding: 3px;
+    border:5px double black;
+    justify-content: space-between;
+    @include grow_flex;
+    // flex-wrap: wrap;
+    z-index: 2;
+    position: static;
+  }
+} 
+@media only screen and (min-width:480px) {
+  .card{
+    display: flex;
+    // min-width: 400px;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: 3px;
+    padding: 3px;
+    border:5px double black;
+    justify-content: space-between;
+    @include grow_flex;
+    // flex-wrap: wrap;
+    z-index: 2;
+    position: static;
+  }
+
+}
+.image{
+  // @include grow_flex;
+  // border:10px double black;
+  width:25vw;
+  height:25vh;
+  border-radius: 50px;
+  border: 2px dashed black;
+  // background-color: black;
+  padding:5px;
+  margin:5px 20px ;
+}
+
+.image_detail{
+  // background-image: linear-gradient(to bottom,,white);
+  /* border:2px dotted red; */
+  // width: 250px;
+  // height:100%; 
+  // @include grow_flex;
+  width:50vw;
+  height:25vh;
+  margin: 2px auto;
+  font-size:auto;
+
+}

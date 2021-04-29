@@ -1,0 +1,46 @@
+
+.header{
+  background-color: orange;
+  background-image:linear-gradient(to bottom , black ,white);
+  color:white;
+  padding:20px;
+  margin: auto;
+  height: 100%;
+}
+.button{
+
+  padding: 15px;
+  border-radius: 30px;
+  margin: 20px 5px;
+  border: 2px dashed green;
+  background-color: white;
+  width: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* background-image: linear-gradient(to right ,white,#ff9090); */
+}
+.soft{
+  color: white;
+  font-size: x-large;
+  background-image:radial-gradient(red,white,blue)
+}
+
+
+.gentle{
+  color: white;
+  font-size: x-large;
+  background-image:radial-gradient(red,white,green)
+}
+
+.warning{
+  color: white;
+  font-size:xx-large;
+  background-image:radial-gradient(orange,white,red)
+}
+.score{
+  color:white;
+  background-image: linear-gradient(to top,white,rgb(80, 68, 68));
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

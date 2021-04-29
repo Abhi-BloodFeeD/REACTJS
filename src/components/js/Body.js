@@ -8,7 +8,7 @@ function Body(props){
   // const name='image.png'
   return(
     <div className='body'>
-      <Card className='card' name={`${Image}`} alt="image"/>
+      <Card className='body__card' name={`${Image}`} alt="image"/>
       <Biocard className='biocard'/>    
     </div>
 )}

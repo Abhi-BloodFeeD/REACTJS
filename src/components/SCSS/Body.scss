@@ -5,5 +5,15 @@
 }
 
 .body{
-  height:1440px;
+  // height:1440px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content:center;
 }
+
+.body__card{
+
+
+}
+

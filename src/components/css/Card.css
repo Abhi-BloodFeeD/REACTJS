@@ -1,74 +1,36 @@
-@media only screen and (min-width: 480px) {
-  .card {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    margin: 3px;
-    padding: 3px;
-    border: 5px double black;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    z-index: 2;
-    position: static;
-  }
-  .card:hover {
-    -webkit-box-flex: 1.2;
-        -ms-flex-positive: 1.2;
-            flex-grow: 1.2;
-    -webkit-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-  }
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-@media only screen and (min-width: 480px) {
-  .card {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    margin: 3px;
-    padding: 3px;
-    border: 5px double black;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    z-index: 2;
-    position: static;
-  }
-  .card:hover {
-    -webkit-box-flex: 1.2;
-        -ms-flex-positive: 1.2;
-            flex-grow: 1.2;
-    -webkit-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-  }
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 3px;
+  padding: 10px;
+  height: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: black 2px solid;
 }
 
 .image {
-  width: 25vw;
-  height: 25vh;
+  width: 35vw;
   border-radius: 50px;
-  border: 2px dashed black;
-  padding: 5px;
+  border: 5px double black;
+  padding: 0px;
   margin: 5px 20px;
 }
 
 .image_detail {
   /* border:2px dotted red; */
-  width: 50vw;
-  height: 25vh;
-  margin: 2px auto;
+  width: 100px;
+  margin: 0px auto;
   font-size: auto;
 }
